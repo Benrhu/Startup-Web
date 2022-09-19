@@ -205,6 +205,9 @@ body {
   padding-top: 50px;
 }
 
+.newsletter {
+  width: 100%;
+}
 .borders {
   border: 2px solid skyblue;
 }
@@ -733,7 +736,8 @@ body {
 }
 
 .footer-copy {
-  padding-top: 30%;
+  width: 100%;
+  padding-top: 10%;
 }
 
 .footer-icon {
