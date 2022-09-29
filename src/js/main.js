@@ -1,24 +1,6 @@
-;(function () {
+const btnSwitch = document.querySelector('#switch');
 
-    'use strict';
-
-    // svg responsive in mobile mode
-    var checkPosition = function() {
-        if ($(window).width() < 767) {
-            $("#bg-services").attr("viewBox", "0 0 1050 800");
-
-        }
-    };
-
-    (function($) {
-        carousels();
-        checkPosition();
-    })(jQuery);
-
-
-}());
-
-// menu toggle button
-function myFunction(x) {
-    x.classList.toggle("change");
-}
+btnSwitch.addEventListener('click', () => {
+    document.body.classList.toggle('dark');
+    btnSwitch.classList.toggle('active');
+});
