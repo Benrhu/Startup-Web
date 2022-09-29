@@ -670,8 +670,9 @@ body {
   font-size: 22px;
 }
 
-.gtco-logo-area {
-  margin: 50px auto;
+.logo {
+  object-fit: cover;
+  height: 100px;
 }
 .gtco-logo-area .col .img-fluid {
   max-height: 32px;
