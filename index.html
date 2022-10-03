@@ -256,33 +256,21 @@
       </div>
     </div>
 
-    <div>
-      <form class="row g-3 " action="https://formsubmit.co/your@email.com" method="POST">
+    <div class="form p-5">
+      <form class=" text-center form center" action="https://formsubmit.co/your@email.com" method="POST">
         <div class="col-md-6">
-          <label for="inputEmail4" class="form-label">Nombre de la empresa:</label>
-          <input type="text" name="company-name" class="form-control" id="inputEmail4"  required>
+          <label for="inputEmail4" class="form-label p-3">Name:</label>
+          <input type="text" name="company-name" class="form-control" id="inputEmail4" placeholder="Your name" required>
         </div>
         <div class="col-md-6">
-          <label for="inputPassword4" class="form-label">CIF:</label>
-          <input type="password" class="form-control" id="inputPassword4" required>
+          <label for="inputPassword4" class="form-label p-3">Subject:</label>
+          <input type="password" class="form-control" id="inputPassword4" placeholder="Subject" required>
         </div>
-        <div class="col-12">
-          <label for="inputAddress" class="form-label">Dirección:</label>
-          <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St" required>
+        <div class="col-6">
+          <label for="inputAddress" class="form-label p-3">Message:</label>
+          <input type="text" class="form-control" id="inputAddress" placeholder="Your message" required>
         </div>
-        <div class="col-12">
-          <label for="inputAddress2" class="form-label">Población:</label>
-          <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
-        </div>
-        <div class="col-md-4">
-          <label for="inputState" class="form-label">Método de pago:</label>
-          <select id="inputState" class="form-select" required>
-            <option selected></option>
-            <option>3 meses</option>
-            <option>Pago único</option>
-          </select>
-        </div>
-        <div class="col-12">
+        <div class="col-6 p-3">
           <button type="submit" class="btn btn-primary">Enviar</button>
         </div>
       </form>
