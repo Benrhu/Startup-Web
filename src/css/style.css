@@ -392,6 +392,11 @@ body.dark #main-nav a a:hover {
   padding-top: 10%;
 }
 
+.form {
+  margin-left: auto;
+  width: 925px;
+}
+
 .footer-icon {
   color: black;
 }
