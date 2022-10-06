@@ -60,8 +60,9 @@ button {
 }
 
 .logo {
+  padding-top: 20px;
   object-fit: cover;
-  height: 100px;
+  height: 80px;
 }
 
 @media (max-width: 600px) {
@@ -89,12 +90,26 @@ button {
   color: skyblue;
 }
 
+#main-nav .collapse {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container-fluid a {
+  margin-left: 100px;
+}
+
 #main-nav a {
   font-family: "OpenSans-Regular";
   font-size: 16px;
   color: #1186ea;
   padding: 5px 15px;
   text-transform: uppercase;
+}
+
+.navbar-nav {
+  margin-top: 10px;
+  margin-left: 20%;
 }
 
 body.dark h1, body.dark h2, body.dark p{
@@ -214,7 +229,7 @@ body.dark #main-nav a a:hover {
   display: inline-block;
   text-transform: uppercase;
   padding-right: 5px;
-  text-decoration: none !important;
+  text-decoration: none
 }
 .banner-area a .fa, .feature a .fa, .features a .fa {
   border-radius: 50%;
